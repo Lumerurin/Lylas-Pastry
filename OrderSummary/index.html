@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <title>Inventory</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="../images/logo.png" alt="Logo">
+            </div>
+            <button class="menu-item">
+                <img src="../images/dashboard.png" alt="Icon" class="menu-icon">
+                Dashboard
+            </button>
+            <button class="menu-item">
+                <img src="../images/invoice.png" alt="Icon" class="menu-icon">
+                Invoice
+            </button>
+            <div class="menu-head">Records</div>
+            <button class="menu-item">
+                <img src="../images/products.png" alt="Icon" class="menu-icon">
+                Products
+            </button>
+            <button class="menu-item">
+                <img src="../images/transaction.png" alt="Icon" class="menu-icon">
+                Transactions
+            </button>
+            <button class="menu-item">
+                <img src="../images/inventory.png" alt="Icon" class="menu-icon">
+                Inventory
+            </button>
+            <button class="menu-item">
+                <img src="../images/salesTracking.png" alt="Icon" class="menu-icon">
+                Sales Tracking
+            </button>
+            <button class="menu-item">
+                <img src="../images/History.png" alt="Icon" class="menu-icon">
+                History
+            </button>
+            <div class="menu-box">
+                <button class="menu-item">
+                    <img src="../images/Settings.png" alt="Icon" class="menu-icon">
+                    Settings
+                </button>
+                <button class="menu-item">
+                    <img src="../images/about.png" alt="Icon" class="menu-icon">
+                    About
+                </button>
+                <button class="menu-item" id="logout-button">
+                    <img src="../images/logout.png" alt="Icon" class="menu-icon">
+                    Logout
+                </button>
+            </div>
+            <div class="profile-box">
+                <img src="../images/baste.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <div class="username">Username</div>
+                    <div class="role">Admin</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="order-summary">
+                <h1 class="title">Order Summary</h1>
+                <div class="info">
+                    <div>
+                        <p class="label">Vendor</p>
+                        <p class="value">Angela Bernales</p>
+                    </div>
+                    <div>
+                        <p class="label">Date</p>
+                        <p class="value">October 15, 2025</p>
+                    </div>
+                    <div>
+                        <p class="label">Time</p>
+                        <p class="value">12:01 AM</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="item">
+                    <div class="item-details">
+                        <img src="https://placehold.co/50x50" alt="Placeholder image for item 1">
+                        <div>
+                            <p class="name">Item 1</p>
+                            <p class="details">Details</p>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <p class="price">PHP00.00</p>
+                        <p class="qty">Qty: 1</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-details">
+                        <img src="https://placehold.co/50x50" alt="Placeholder image for item 1">
+                        <div>
+                            <p class="name">Item 1</p>
+                            <p class="details">Details</p>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <p class="price">PHP00.00</p>
+                        <p class="qty">Qty: 1</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-details">
+                        <img src="https://placehold.co/50x50" alt="Placeholder image for item 1">
+                        <div>
+                            <p class="name">Item 1</p>
+                            <p class="details">Details</p>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <p class="price">PHP00.00</p>
+                        <p class="qty">Qty: 1</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="summary">
+                    <p class="label">Discount</p>
+                    <p class="value">PHP00.00</p>
+                </div>
+                <div class="summary">
+                    <p class="label">Total</p>
+                    <p class="value">PHP00.00</p>
+                </div>
+                <div class="summary">
+                    <p class="label">Amount Paid</p>
+                    <p class="value">PHP00.00</p>
+                </div>
+                <hr>
+                <div class="summary">
+                    <p class="label">Change</p>
+                    <p class="value">PHP00.00</p>
+                </div>
+                <div class="download-button">
+                    <button>
+                        <i class="fas fa-download"></i> Download
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <title>Checkout</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="../images/logo.png" alt="Logo">
+            </div>
+            <button class="menu-item">
+                <img src="../images/dashboard.png" alt="Icon" class="menu-icon">
+                Dashboard
+            </button>
+            <button class="menu-item">
+                <img src="../images/invoice.png" alt="Icon" class="menu-icon">
+                Invoice
+            </button>
+            <div class="menu-head">Records</div>
+            <button class="menu-item">
+                <img src="../images/products.png" alt="Icon" class="menu-icon">
+                Products
+            </button>
+            <button class="menu-item">
+                <img src="../images/transaction.png" alt="Icon" class="menu-icon">
+                Transactions
+            </button>
+            <button class="menu-item">
+                <img src="../images/inventory.png" alt="Icon" class="menu-icon">
+                Inventory
+            </button>
+            <button class="menu-item">
+                <img src="../images/salesTracking.png" alt="Icon" class="menu-icon">
+                Sales Tracking
+            </button>
+            <button class="menu-item">
+                <img src="../images/History.png" alt="Icon" class="menu-icon">
+                History
+            </button>
+            <div class="menu-box">
+                <button class="menu-item">
+                    <img src="../images/Settings.png" alt="Icon" class="menu-icon">
+                    Settings
+                </button>
+                <button class="menu-item">
+                    <img src="../images/about.png" alt="Icon" class="menu-icon">
+                    About
+                </button>
+                <button class="menu-item" id="logout-button">
+                    <img src="../images/logout.png" alt="Icon" class="menu-icon">
+                    Logout
+                </button>
+            </div>
+            <div class="profile-box">
+                <img src="../images/baste.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <div class="username">Username</div>
+                    <div class="role">Admin</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="checkout-container">
+                <h1>Checkout</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://placehold.co/60x60" alt="Product image" class="product-image"></td>
+                            <td>0.00</td>
+                            <td>0 pcs</td>
+                            <td>0.00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://placehold.co/60x60" alt="Product image" class="product-image"></td>
+                            <td>0.00</td>
+                            <td>0 pcs</td>
+                            <td>0.00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://placehold.co/60x60" alt="Product image" class="product-image"></td>
+                            <td>0.00</td>
+                            <td>0 pcs</td>
+                            <td>0.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="summary">
+                    <div>
+                        <span>Discount</span>
+                        <span>0.00</span>
+                    </div>
+                    <div>
+                        <span>Total Amount</span>
+                        <span>0.00</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="button">
+                        <i class="fas fa-envelope"></i>
+                        Cancel
+                    </div>
+                    <div class="button">
+                        <i class="fas fa-envelope"></i>
+                        Transact
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

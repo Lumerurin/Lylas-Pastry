@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.greeting {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 1);
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 210px;
+  background: rgba(217, 217, 217, 1);
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.menu-head {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: rgb(140, 127, 127, 1);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.menu-item:hover {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.menu-box {
+  background: rgba(255, 255, 255, 1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.role {
+  font-size: 14px;
+  color: rgb(140, 127, 127);
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: rgba(255, 255, 255, 1);
+}
+
+h1 {
+  font-size: 48px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.cards-container {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  flex: 0 0 30%;
+  position: relative;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card h2 {
+  font-size: 14px;
+  color: rgba(140, 127, 127, 1);
+}
+
+.card .value {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.card .change {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.card-icon img {
+  width: 43px;
+  height: 43px;
+}
+
+.graph {
+  background: rgba(217, 217, 217, 1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 390px;
+}
+
+.graph h2 {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.graph p {
+  font-size: 14px;
+  color: rgba(140, 127, 127, 1);
+}
+
+.graph-placeholder {
+  width: 156px;
+  height: 156px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 20px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <title>Products</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="../images/logo.png" alt="Logo">
+            </div>
+            <button class="menu-item">
+                <img src="../images/dashboard.png" alt="Icon" class="menu-icon">
+                Dashboard
+            </button>
+            <button class="menu-item">
+                <img src="../images/invoice.png" alt="Icon" class="menu-icon">
+                Invoice
+            </button>
+            <div class="menu-head">Records</div>
+            <button class="menu-item">
+                <img src="../images/products.png" alt="Icon" class="menu-icon">
+                Products
+            </button>
+            <button class="menu-item">
+                <img src="../images/transaction.png" alt="Icon" class="menu-icon">
+                Transactions
+            </button>
+            <button class="menu-item">
+                <img src="../images/inventory.png" alt="Icon" class="menu-icon">
+                Inventory
+            </button>
+            <button class="menu-item">
+                <img src="../images/salesTracking.png" alt="Icon" class="menu-icon">
+                Sales Tracking
+            </button>
+            <button class="menu-item">
+                <img src="../images/History.png" alt="Icon" class="menu-icon">
+                History
+            </button>
+            <div class="menu-box">
+                <button class="menu-item">
+                    <img src="../images/Settings.png" alt="Icon" class="menu-icon">
+                    Settings
+                </button>
+                <button class="menu-item">
+                    <img src="../images/about.png" alt="Icon" class="menu-icon">
+                    About
+                </button>
+                <button class="menu-item" id="logout-button">
+                    <img src="../images/logout.png" alt="Icon" class="menu-icon">
+                    Logout
+                </button>
+            </div>
+            <div class="profile-box">
+                <img src="../images/baste.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <div class="username">Username</div>
+                    <div class="role">Admin</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <h1>Products</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search by name or product number">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product-list">
+                    <div class="product-category">
+                        <h2>Cookies</h2>
+                        <div class="product-grid">
+                            <img src="../images/baste.jpg" alt="Placeholder image for a cookie product">
+                            <img src="../images/baste.jpg" alt="Placeholder image for a cookie product">
+                            <img src="../images/baste.jpg" alt="Placeholder image for a cookie product">
+                            <img src="..//images/baste.jpg" alt="Placeholder image for a cookie product">
+                            <img src="..//images/baste.jpg" alt="Placeholder image for a cookie product">
+                            <img src="..//images/baste.jpg" alt="Placeholder image for a cookie product">
+                        </div>
+                    </div>
+                    <div class="product-category">
+                        <h2>Bars</h2>
+                        <div class="product-grid">
+                            <img src="https://placehold.co/100x100" alt="Placeholder image for a bar product">
+                            <img src="https://placehold.co/100x100" alt="Placeholder image for a bar product">
+                            <img src="https://placehold.co/100x100" alt="Placeholder image for a bar product">
+                            <img src="https://placehold.co/100x100" alt="Placeholder image for a bar product">
+                        </div>
+                    </div>
+                    <div class="product-category">
+                        <h2>Breads</h2>
+                        <div class="product-grid">
+                            <img src="https://placehold.co/100x100" alt="Placeholder image for a bread product">
+                            <img src="https://placehold.co/100x100" alt="Placeholder image for a bread product">
+                            <img src="https://placehold.co/100x100" alt="Placeholder image for a bread product">
+                            <img src="https://placehold.co/100x100" alt="Placeholder image for a bread product">
+                        </div>
+                    </div>
+                </div>
+                <div class="cart">
+                    <h2>Cart</h2>
+                    <div class="cart-header">
+                        <span>Product</span>
+                        <span>Quantity</span>
+                    </div>
+                    <div class="cart-item">
+                        <i class="fas fa-minus-circle"></i>
+                        <input type="text" value="0">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <div class="cart-buttons">
+                        <button>
+                            <i class="fas fa-shopping-bag"></i>
+                            Discount
+                        </button>
+                        <button>
+                            <i class="fas fa-shopping-bag"></i>
+                            Checkout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

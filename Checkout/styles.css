@@ -105,13 +105,12 @@ body {
   flex: 1;
   padding: 20px;
   background: rgba(255, 255, 255, 1);
-  margin-left: 230px; /* Adds space for the fixed sidebar */
-  overflow-y: auto; /* Allows the main content to scroll */
+  margin-left: 230px; 
+  overflow-y: auto;
 }
 
 .checkout-container {
-  max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
   background-color: #ffffff;
   padding: 24px;
   border-radius: 8px;

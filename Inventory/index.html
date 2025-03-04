@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <title>Inventory</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="../images/logo.png" alt="Logo">
+            </div>
+            <button class="menu-item">
+                <img src="../images/dashboard.png" alt="Icon" class="menu-icon">
+                Dashboard
+            </button>
+            <button class="menu-item">
+                <img src="../images/invoice.png" alt="Icon" class="menu-icon">
+                Invoice
+            </button>
+            <div class="menu-head">Records</div>
+            <button class="menu-item">
+                <img src="../images/products.png" alt="Icon" class="menu-icon">
+                Products
+            </button>
+            <button class="menu-item">
+                <img src="../images/transaction.png" alt="Icon" class="menu-icon">
+                Transactions
+            </button>
+            <button class="menu-item">
+                <img src="../images/inventory.png" alt="Icon" class="menu-icon">
+                Inventory
+            </button>
+            <button class="menu-item">
+                <img src="../images/salesTracking.png" alt="Icon" class="menu-icon">
+                Sales Tracking
+            </button>
+            <button class="menu-item">
+                <img src="../images/History.png" alt="Icon" class="menu-icon">
+                History
+            </button>
+            <div class="menu-box">
+                <button class="menu-item">
+                    <img src="../images/Settings.png" alt="Icon" class="menu-icon">
+                    Settings
+                </button>
+                <button class="menu-item">
+                    <img src="../images/about.png" alt="Icon" class="menu-icon">
+                    About
+                </button>
+                <button class="menu-item" id="logout-button">
+                    <img src="../images/logout.png" alt="Icon" class="menu-icon">
+                    Logout
+                </button>
+            </div>
+            <div class="profile-box">
+                <img src="../images/baste.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <div class="username">Username</div>
+                    <div class="role">Admin</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <h1>Inventory</h1>
+            </div>
+            <div class="search-bar-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search by name or event number">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="add-event-btn-container">
+                    <button class="add-event-btn">
+                        <i class="fas fa-plus"></i>
+                        Add event
+                    </button>
+                </div>
+            </div>
+            <div class="filters">
+                <button>
+                    <i class="fas fa-sort"></i>
+                    Sort
+                </button>
+                <button>
+                    <i class="fas fa-filter"></i>
+                    Filter
+                </button>
+                <button>
+                    <i class="fas fa-filter"></i>
+                    Filter
+                </button>
+                <button>
+                    <i class="fas fa-filter"></i>
+                    Filter
+                </button>
+            </div>
+            <div class="event-card">
+                <div>
+                    <h2>Event Name</h2>
+                    <span class="school-event">School Event</span>
+                    <p>01/25/24 - 01/27/24</p>
+                    <p>Employee Assigned:
+                        <span class="employees">
+                            <img src="https://placehold.co/20x20" alt="Employee 1">
+                            <img src="https://placehold.co/20x20" alt="Employee 2">
+                            <img src="https://placehold.co/20x20" alt="Employee 3">
+                        </span>
+                    </p>
+                </div>
+                <button class="manage-stocks-btn">
+                    <i class="fas fa-ellipsis-h"></i>
+                    Manage Stocks
+                </button>
+            </div>
+            <div class="event-card">
+                <div>
+                    <h2>Event Name</h2>
+                    <span class="social-event">Social Event</span>
+                    <p>01/25/24 - 01/27/24</p>
+                    <p>Employee Assigned:
+                        <span class="employees">
+                            <img src="https://placehold.co/20x20" alt="Employee 1">
+                            <img src="https://placehold.co/20x20" alt="Employee 2">
+                            <img src="https://placehold.co/20x20" alt="Employee 3">
+                        </span>
+                    </p>
+                </div>
+                <button class="manage-stocks-btn">
+                    <i class="fas fa-ellipsis-h"></i>
+                    Manage Stocks
+                </button>
+            </div>
+            <div class="event-card">
+                <div>
+                    <h2>Event Name</h2>
+                    <span class="workshop">Workshop</span>
+                    <p>01/25/24 - 01/27/24</p>
+                    <p>Employee Assigned:
+                        <span class="employees">
+                            <img src="https://placehold.co/20x20" alt="Employee 1">
+                            <img src="https://placehold.co/20x20" alt="Employee 2">
+                            <img src="https://placehold.co/20x20" alt="Employee 3">
+                        </span>
+                    </p>
+                </div>
+                <button class="manage-stocks-btn">
+                    <i class="fas fa-ellipsis-h"></i>
+                    Manage Stocks
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

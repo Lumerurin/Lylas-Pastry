@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 210px;
+  background: rgba(217, 217, 217, 1);
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.menu-head {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: rgb(140, 127, 127, 1);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.menu-item:hover {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.menu-box {
+  background: rgba(255, 255, 255, 1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.role {
+  font-size: 14px;
+  color: rgb(140, 127, 127);
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: rgba(255, 255, 255, 1);
+  margin-left: 230px; /* Adds space for the fixed sidebar */
+  overflow-y: auto; /* Allows the main content to scroll */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Reduced margin to move search bar closer */
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px; /* Added margin to separate from filters */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.search-bar i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.add-event-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-event-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.add-event-btn i {
+  margin-right: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+}
+
+.filters button i {
+  margin-right: 10px;
+}
+
+.event-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.event-card h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.event-card span {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+.event-card .school-event {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.event-card .social-event {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.event-card .workshop {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.event-card p {
+  color: #6c757d;
+  margin: 5px 0;
+}
+
+.event-card .employees img {
+  border-radius: 9999px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.manage-stocks-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.manage-stocks-btn i {
+  margin-right: 10px;
+}
